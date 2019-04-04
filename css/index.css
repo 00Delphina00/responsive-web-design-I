@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*DESKTOP DISPLAY CODE*/
 .container {
 	/*	border: 1px solid red;*/
 		margin: 30px auto;
@@ -201,7 +203,7 @@ h1, h2, h3, h4, h5 {
 		  text-align: center;
 	}
 
-/*TABLET VIEW CODE*/
+/*TABLET DISPLAY CODE*/
 @media (max-width: 800px) {
     .container {
         width: 660px;
@@ -248,4 +250,74 @@ h1, h2, h3, h4, h5 {
 		margin-left: auto;
 	}
 
+}
+
+/*MOBILE DISPLAY CODE*/
+@media (max-width: 500px) {
+	.container {
+		border: 1px solid red;
+        width: 360px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+		width: 360px;
+		height: 55%;
+		
+    }
+    .navigation nav {
+		border: 1px solid red;
+        width: 360px;
+		order: 2;
+		height: 100%;
+		width: 360px;
+		display: flex;
+		flex-direction: column;
+		padding-right: 45px;
+	}
+	.navigation nav a{
+		border: 1px solid red;
+		align-items: center;
+		height: 40%;
+		width: 360px;
+		padding-right: 100px;
+		border-bottom: 1px solid gray;
+
+	}
+    .navigation img {
+        width: 200px;
+        order: 1;
+    }
+    .headerArt img {
+        display: none;
+    }
+    .headerArt {
+		border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+		width: 360px; 
+		padding-top: 325px;   
+    }
+    .midContentSection1 {
+
+        width: 360px;    
+    }
+    .midContentSection1 h3{
+		
+        margin-left: auto;
+    }
+    .midContentSection1 p{
+		
+        
+        margin: auto auto;
+	}
+	.midContentSection2 {
+		width: 360px;
+	}
+    .midContentSection2 h3, .midContentSection2 p{
+		width: 30%;
+		margin-left: auto;
+	}	
 }
