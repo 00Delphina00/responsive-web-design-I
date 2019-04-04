@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-		border: 1px solid red;
+	/*	border: 1px solid red;*/
 		margin: 30px auto;
         width: 880px;
         /*width: 65%;*/
@@ -141,7 +141,6 @@ h1, h2, h3, h4, h5 {
 		border-top: 1px solid grey;
 		border-left: 1px solid grey;
 	}
-	
 
 	.midContentSection1 {
 		display: flex;
@@ -163,12 +162,12 @@ h1, h2, h3, h4, h5 {
 		width: 430px;
 	}
 	.middle-img {
-		 width: 99%;
+		 width: 100%;
 	}
 	.midContentSection2 {
 		display: flex;
 		flex-flow: row-reverse wrap;
-	/*	border: 1px solid red;*/
+		/*border: 1px solid red;*/
 		width: 870px;
 		margin-top: 30px;
 		border-bottom: 1px solid grey;
@@ -240,6 +239,13 @@ h1, h2, h3, h4, h5 {
     .midContentSection1 p{
         width: 44%;
         margin: auto auto;
-    }
-    
+	}
+	.midContentSection2 {
+		width: 660px;
+	}
+    .midContentSection2 h3, .midContentSection2 p{
+		width: 30%;
+		margin-left: auto;
+	}
+
 }
