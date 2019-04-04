@@ -145,20 +145,20 @@ h1, h2, h3, h4, h5 {
 	.midContentSection1 {
 		display: flex;
 		flex-flow: row-reverse wrap;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		width: 870px;
 		margin: 30px 0px;
 		
 	}
 	.midContentSection1 p {
         order: 1;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
 		
 		width: 425px;
 	}
 	.midContentSection1 h3 {
 		
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		width: 430px;
 	}
 	.middle-img {
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5 {
 	}
 	.midContentSection2 {
 		display: flex;
-		flex-flow: row-reverse wrap;
+		flex-flow: row-reverse nowrap;
 	/*	border: 1px solid red;*/
 		width: 870px;
 		margin-top: 30px;
@@ -230,12 +230,15 @@ h1, h2, h3, h4, h5 {
         width: 660px;    
     }
     .midContentSection1 {
-        width: 660px;
-        
+        width: 660px;    
     }
-    .midContentSection1 h3, .midContentSection1 p{
-        width: 45%
-        
+    .midContentSection1 h3{
+        width: 47%;
+        margin-left: auto;
+    }
+    .midContentSection1 p{
+        width: 44%;
+        margin: auto auto;
     }
     
 }
