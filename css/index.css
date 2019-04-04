@@ -66,15 +66,16 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	/*	border: 1px solid red;*/
+		border: 1px solid red;
 		margin: 30px auto;
-		width: 880px;
+        /*width: 880px;*/
+        width: 65%;
 	}
 	.navigation {
-		/*border: 4px solid red;*/
+		border: 4px solid red;
 		display: flex;
 		flex-direction: row;
-		width: 870px;
+		width: 65%;
 		background-color: #00FA9A;
 		border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -82,10 +83,11 @@ h1, h2, h3, h4, h5 {
 		top: 0;
 	}
 	.navigation nav {
-		/*border: 4px solid red;*/
+		border: 4px solid red;
 		vertical-align: top;
 		margin-top:10px;
-		width:  666px;
+        /*width:  666px;*/
+        width: 90%;
 	}
 	
 	a {
@@ -201,7 +203,12 @@ h1, h2, h3, h4, h5 {
 
 /*TABLET VIEW CODE*/
 @media (max-width: 800px) {
+    .navigation img {
+        display: flex;
+        flex-direction: column;
+    }
     .headerArt img {
+        
         display: none;
     }
 
