@@ -199,3 +199,10 @@ h1, h2, h3, h4, h5 {
 		  text-align: center;
 	}
 
+/*TABLET VIEW CODE*/
+@media (max-width: 800px) {
+    .headerArt img {
+        display: none;
+    }
+
+}
