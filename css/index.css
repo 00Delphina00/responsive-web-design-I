@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
         /*width: 65%;*/
 	}
 	.navigation {
-		border: 4px solid red;
+		/*border: 4px solid red;*/
 		display: flex;
 		flex-direction: row;
 		width: 880px;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 		top: 0;
 	}
 	.navigation nav {
-		border: 4px solid red;
+		/*border: 4px solid red;*/
 		vertical-align: top;
 		margin-top:10px;
         /*width:  666px;*/
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5 {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-	/*	border: 4px solid red;
+		/*border: 4px solid red;
 		vertical-align: top;
 		margin-top: 60px;
 		margin-bottom: 0px;*/
@@ -223,5 +223,13 @@ h1, h2, h3, h4, h5 {
     .headerArt img {
         display: none;
     }
-
+    .headerArt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+    .headerArt h1 {
+        padding-right: 180px;
+    }
+    }
 }
