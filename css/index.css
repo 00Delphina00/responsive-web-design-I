@@ -203,12 +203,24 @@ h1, h2, h3, h4, h5 {
 
 /*TABLET VIEW CODE*/
 @media (max-width: 800px) {
+    .container {
+        width: 660px;
+    }
     .navigation {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 660px;
+    }
+    .navigation nav {
+        width: 660px;
+        order: 2;
+    }
+    .navigation img {
+        width: 200px;
+        order: 1;
     }
     .headerArt img {
-        
         display: none;
     }
 
