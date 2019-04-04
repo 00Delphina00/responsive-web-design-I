@@ -151,14 +151,14 @@ h1, h2, h3, h4, h5 {
 		
 	}
 	.midContentSection1 p {
-		order: 1;
-		border: 1px solid red;
+        order: 1;
+        border: 1px solid red;
 		
 		width: 425px;
 	}
 	.midContentSection1 h3 {
 		
-	/*	border: 1px solid red;*/
+		border: 1px solid red;
 		width: 430px;
 	}
 	.middle-img {
@@ -229,9 +229,13 @@ h1, h2, h3, h4, h5 {
         align-items: center;   
         width: 660px;    
     }
-    .headerArt h1 {
+    .midContentSection1 {
+        width: 660px;
         
     }
-    
+    .midContentSection1 h3, .midContentSection1 p{
+        width: 45%
+        
+    }
     
 }
