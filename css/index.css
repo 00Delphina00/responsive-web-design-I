@@ -255,7 +255,10 @@ h1, h2, h3, h4, h5 {
 
 /*MOBILE DISPLAY CODE*/
 @media (max-width: 500px) {
-
+	.container {
+		width: 360px;
+		border: 1px solid red;
+	}
     .navigation {
         display: flex;
         flex-direction: column;
@@ -326,12 +329,11 @@ h1, h2, h3, h4, h5 {
 	.midContentSection1 .featuresHeading{
 		order: 2;
 		border: 1px solid red;
+		width: 100%;
 	}
     .midContentSection1 p{
-		
-		border: 1px solid red;
-		
-        
+		width: 100%;
+		border: 1px solid red;   
 	}
 	.midContentSection2 {
 		width: 360px;
