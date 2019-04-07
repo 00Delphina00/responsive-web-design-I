@@ -319,27 +319,40 @@ h1, h2, h3, h4, h5 {
 		justify-content: space-around;
 		flex-direction: column-reverse;
 		width: 360px;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
           
 	}
 	.midContentSection1 .aboutHeading {
 		order: 1;
-		border: 1px solid red;
+		width: 100%;
+		margin-top: 20px;
+		/*border: 1px solid red;*/
 	}
 	.midContentSection1 .featuresHeading{
 		order: 2;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		width: 100%;
 	}
     .midContentSection1 p{
 		width: 100%;
-		border: 1px solid red;   
+		/*border: 1px solid red;*/   
 	}
 	.midContentSection2 {
+		justify-content: space-around;
+		flex-direction: column-reverse;
 		width: 360px;
 	}
-    .midContentSection2 h3, .midContentSection2 p{
-		width: 30%;
-		margin-left: auto;
+    	.servicesHeading {
+		order: 1;
+		width: 100%;
+		border: 1px solid red;
+	} 
+		.productHeading {
+		width: 100%;
+		border: 1px solid red;
+	}
+	.midContentSection2 p{
+		border: 1px solid red;
+		width: 100%;
 	}	
 }
