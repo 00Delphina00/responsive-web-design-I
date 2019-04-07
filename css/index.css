@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 500px) {
 	.container {
 		width: 360px;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 	}
     .navigation {
         display: flex;
@@ -308,13 +308,7 @@ h1, h2, h3, h4, h5 {
 		width: 360px; 
 		padding-top: 325px;   
 	}
-	/* SOLUTION FROM PM
-	.main-content .top-content {
-        justify-content: space-around;
-        flex-direction: column;
-        height: 300px;
-    }
-	*/
+	
     .midContentSection1 {
 		justify-content: space-around;
 		flex-direction: column-reverse;
@@ -343,16 +337,35 @@ h1, h2, h3, h4, h5 {
 		width: 360px;
 	}
     	.servicesHeading {
-		order: 1;
+		order: 6; 
 		width: 100%;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 	} 
 		.productHeading {
+		order: 4;
 		width: 100%;
-		border: 1px solid red;
+		margin-top: 20px;
+		/*border: 1px solid red;*/
+	}
+	.visionHeading {
+		margin-top: 20px;
+		order: 2;
+	}
+	.midContentSection2 h3 {
+		/*border: 1px solid red;*/
+		width: 100%;
+	}
+	.servicesParagraph {
+		order: 5;
+	}
+	.productParagraph {
+		order: 3;
+	}
+	.visionPragraph {
+		order: 1;
 	}
 	.midContentSection2 p{
-		border: 1px solid red;
+	/*	border: 1px solid red;*/
 		width: 100%;
 	}	
 }
